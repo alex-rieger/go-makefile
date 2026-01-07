@@ -67,6 +67,7 @@ tidy:
 
 ## build: build the application
 .PHONY: build
+build:
 	# Include additional builds steps (js/ts/etc).
 	go build -o=/tmp/bin/${binary_name} ${main_package_path}
 
