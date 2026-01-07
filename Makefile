@@ -1,7 +1,3 @@
-#
-#
-# 
-
 main_package_path = ./cmd/example
 binary_name = example
 docker = podman
@@ -9,7 +5,7 @@ docker = podman
 go_staticcheck = honnef.co/go/tools/cmd/staticcheck@latest
 go_vulncheck = golang.org/x/vuln/cmd/govulncheck@latest
 go_upgradeable = github.com/oligot/go-mod-upgrade@latest
-go_air = github.com/air-verse/air@v.1.63.4
+go_air = github.com/air-verse/air@v1.63.4
 
 #
 # helpers
